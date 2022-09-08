@@ -13,7 +13,7 @@ function NewMeetupPage() {
                     'Content-Type': 'application/json'
                 }
             }).then(() => {
-                navigate('/');
+                navigate('/react-meetups');
             });
     }
 
